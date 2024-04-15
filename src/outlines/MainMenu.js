@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { color } from '../styles/color';
-import fontSize from '../styles/fontSize';
+import fontSize from '../styles/FontSize';
 
 const { dark, primary, light } = color;
 
