@@ -5,18 +5,21 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter } from 'react-router-dom';
-import ErrorPages from '/commons/pages/Error';
+import ErrorPage from './commons/pages/Error';
+
 import './i18n';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ErrorPages>
-    <HelmetProvider>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </HelmetProvider>
-  </ErrorPages>,
+  <React.StrictMode>
+    <ErrorPage>
+      <HelmetProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </HelmetProvider>
+    </ErrorPage>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function
