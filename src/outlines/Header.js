@@ -6,7 +6,7 @@ import classNames from 'classnames';
 
 import { FaSearch } from 'react-icons/fa';
 
-import fontSize from '../styles/fontSize';
+import fontSize from '../styles/FontSize';
 import { color } from '../styles/color';
 import logo from '../images/logo.png';
 
