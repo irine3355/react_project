@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { color } from '../styles/color';
+import { color } from '../../styles/color';
 
 const { dark } = color;
 
@@ -9,5 +9,5 @@ export const OuterBox = styled.div`
   padding: 50px;
   border-radius: 20px;
   box-shadow: 2px 2px 5px ${dark};
-  margin: 100px auto;
+  margin: 50px auto;
 `;

@@ -4,11 +4,11 @@ import classNames from 'classnames';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { color } from '../styles/color';
-import fontSize from '../styles/FontSize';
+import FontSize from '../styles/FontSize';
 
 const { dark, primary, light } = color;
 
-const MenuBox = styled.nav`
+const MenuBox = styled.nav`s
   background: ${dark};
 
   div {
@@ -19,7 +19,7 @@ const MenuBox = styled.nav`
       color: ${light};
       line-height: 50px;
       padding: 0 50px;
-      font-size: ${fontSize.medium};
+      font-size: ${FontSize.medium};
 
       &.on {
         background: ${primary};
