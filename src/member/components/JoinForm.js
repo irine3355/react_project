@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-import { use } from 'i18next';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { BigButton, ButtonGroup } from '../../commons/components/Buttons';
@@ -50,24 +48,6 @@ const JoinForm = () => {
         </BigButton>
       </ButtonGroup>
     </form>
-=======
-import React from 'react';
-import { Helmet } from 'react-helmet-async';
-import { useTranslation } from 'react-i18next';
-import JoinForm from '../components/JoinForm';
-
-const JoinForm = () => {
-  const { t } = useTranslation();
-
-  return (
-    <>
-      <Helmet>
-        <title>{t('회원가입')}</title>
-      </Helmet>
-      <h1>{t('회원가입')}</h1>
-      <JoinForm />
-    </>
->>>>>>> a0549474b3f38f39b1871b57810a193e11bf1019
   );
 };
 

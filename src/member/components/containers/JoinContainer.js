@@ -11,7 +11,7 @@ const JoinContainer = () => {
   const [errors, setErrors] = useState({});
   const { t } = useTranslation();
 
-  const useNavigate
+  const navigate = useNavigate();
   /**
    * 회원 가입 처리
    * 1. 데이터 검증~
@@ -67,7 +67,7 @@ const JoinContainer = () => {
       /**가입처리 */
 
       /**가입완료 후 로그인 페이지 이동 */
-    navigate("/member/login", {replace: true}); // replace
+      navigate('/member/login', { replace: true }); // replace
     },
     [t, form, navigate],
   );
