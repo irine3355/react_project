@@ -2,8 +2,8 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import { color } from '../../styles/color';
 import fontSize from '../../styles/FontSize';
-
 const { small } = fontSize;
+
 const Box = styled.div`
   text-align: center;
   padding: 7px 10px;
