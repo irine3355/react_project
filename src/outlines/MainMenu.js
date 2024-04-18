@@ -8,7 +8,7 @@ import fontSize from '../styles/FontSize';
 
 const { dark, primary, light } = color;
 
-const MenuBox = styled.nav`
+const MenuBox = styled.nav`s
   background: ${dark};
 
   div {
